@@ -23,7 +23,7 @@
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                            <li class="nav-item"><a class="nav-link" href="{% url 'home' %}">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="{% url 'home' %}">Главная</a></li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" id="navbarDropdownBlog" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">О Фонде</a>
                                 <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog">
@@ -31,6 +31,10 @@
                                     <li><a class="dropdown-item" href="blog-post.html">Структура</a></li>
                                     <li><a class="dropdown-item" href="blog-post.html">Правление</a></li>
                                     <li><a class="dropdown-item" href="blog-post.html">Попечительский Совет</a></li>
+                                    <li><a class="dropdown-item" href="blog-post.html">Государственные Контролирующие И Надзорные Органы</a></li>
+                                    <li><a class="dropdown-item" href="blog-post.html">Взаимодействие С Общественными Организациями</a></li>
+                                    <li><a class="dropdown-item" href="blog-post.html">Награды и Благодарности</a></li>
+                                    <li><a class="dropdown-item" href="blog-post.html">Вакансии</a></li>
                                     <li><a class="dropdown-item" href="blog-post.html">Реквизиты</a></li>
                                 </ul>
                             </li>
@@ -42,8 +46,55 @@
                                     <li><a class="dropdown-item" href="blog-post.html">Органов Местного Самоуправления</a></li>
                                 </ul>
                             </li>
-                            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-                            <li class="nav-item"><a class="nav-link" href="pricing.html">Pricing</a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" id="navbarDropdownBlog" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Собственникам</a>
+                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog">
+                                    <li><a class="dropdown-item" href="blog-home.html">Информация</a></li>
+                                    <li><a class="dropdown-item" href="blog-post.html">Образцы Документов</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" id="navbarDropdownBlog" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Документы</a>
+                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog">
+                                    <li><a class="dropdown-item" href="blog-home.html">Региональная Программа</a></li>
+                                    <li><a class="dropdown-item" href="blog-post.html">Противодействие Коррупции</a></li>
+                                    <li><a class="dropdown-item" href="blog-post.html">Документы Фонда</a></li>
+                                    <li><a class="dropdown-item" href="blog-post.html">Финансовая Устойчивость</a></li>
+                                    <li><a class="dropdown-item" href="blog-post.html">Контрольные Мероприятия</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" id="navbarDropdownBlog" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Капитальный Ремонт</a>
+                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog">
+                                    <li><a class="dropdown-item" href="blog-home.html">Карта Капитального Ремонта</a></li>
+                                    <li><a class="dropdown-item" href="blog-post.html">О Ходе Капитального Ремонта</a></li>
+                                    <li><a class="dropdown-item" href="blog-post.html">Витрина Закупок</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" id="navbarDropdownPortfolio" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Отчеты</a>
+                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownPortfolio">
+                                    <li><a class="dropdown-item" href="portfolio-overview.html">Фонда Капитального Ремонта</a></li>
+                                    <li><a class="dropdown-item" href="portfolio-item.html">Регионального Оператора</a></li>
+                                    <li><a class="dropdown-item" href="portfolio-item.html">Фотоотчет О Реализации</a></li>
+                                </ul>
+                            </li>
+                            <!-- <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li> -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" id="navbarDropdownPortfolio" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Вопросы И Ответы</a>
+                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownPortfolio">
+                                    <li><a class="dropdown-item" href="portfolio-overview.html">Вопросы И Ответы</a></li>
+                                    <li><a class="dropdown-item" href="portfolio-item.html">Обращения Граждан</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" id="navbarDropdownPortfolio" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Контакты</a>
+                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownPortfolio">
+                                    <li><a class="dropdown-item" href="portfolio-overview.html">Наши Контакты</a></li>
+                                    <li><a class="dropdown-item" href="portfolio-item.html">Личный Кабинет</a></li>
+                                </ul>
+                            </li>
+                            <!-- <li class="nav-item"><a class="nav-link" href="pricing.html">Pricing</a></li>
                             <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" id="navbarDropdownBlog" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Blog</a>
@@ -58,7 +109,7 @@
                                     <li><a class="dropdown-item" href="portfolio-overview.html">Portfolio Overview</a></li>
                                     <li><a class="dropdown-item" href="portfolio-item.html">Portfolio Item</a></li>
                                 </ul>
-                            </li>
+                            </li> -->
                         </ul>
                     </div>
                 </div>
@@ -70,7 +121,7 @@
         <footer class="bg-dark py-4 mt-auto">
             <div class="container px-5">
                 <div class="row align-items-center justify-content-between flex-column flex-sm-row">
-                    <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; Your Website 2023</div></div>
+                    <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; Фонд Капитального Ремонта 2024</div></div>
                     <div class="col-auto">
                         <a class="link-light small" href="#!">Privacy</a>
                         <span class="text-white mx-1">&middot;</span>
